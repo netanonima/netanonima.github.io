@@ -100,7 +100,7 @@
 .title{
   @apply mb-1 text-lg font-semibold text-gray-900 dark:text-white
 }
-.relase-date{
+.release-date{
   @apply block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500
 }
 .text{
