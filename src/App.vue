@@ -61,7 +61,7 @@ document.addEventListener('keydown', function(e) {
               <router-link @click="closeMenu()" to="/" :class="route.path=='/'?'navbar-selected-link': 'navbar-link'" aria-current="page">Accueil</router-link>
             </li>
             <li>
-              <router-link @click="closeMenu()" to="/studies" :class="route.path=='/studies'?'navbar-selected-link': 'navbar-link'">Études</router-link>
+              <router-link @click="closeMenu()" to="/studies" :class="route.path=='/studies'?'navbar-selected-link': 'navbar-link'">Formations</router-link>
             </li>
             <li>
               <router-link @click="closeMenu()" to="/experiences" :class="route.path=='/experiences'?'navbar-selected-link': 'navbar-link'">Expériences</router-link>
