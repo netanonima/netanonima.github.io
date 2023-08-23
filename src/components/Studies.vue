@@ -4,8 +4,8 @@
 
 <template>
   <div class="flex flex-col items-center mt-10">
-    <div class="mx-96">
-      <ol class="relative border-l border-gray-200 dark:border-gray-700">
+    <div class="w-full px-4 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
+      <ol class="relative md:border-l border-gray-200 dark:border-gray-700">
         <div class="content-center">
           <ol class="relative border-l border-gray-200 dark:border-gray-700">
             <li class="mb-10 ml-6">
@@ -102,7 +102,7 @@
 
 <style scoped>
 .circle {
-  @apply absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900;
+  @apply absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900 md:block;
 }
 .title {
   @apply mb-2 text-2xl font-medium text-gray-700 dark:text-white;
