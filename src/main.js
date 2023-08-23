@@ -8,7 +8,6 @@ import Experiences from './components/Experiences.vue'
 import Skills from './components/Skills.vue'
 import Projects from './components/Projects.vue'
 import Hobbies from './components/Hobbies.vue'
-import Contact from './components/Contact.vue'
 import NotFound from './components/NotFound.vue'
 
 const routes = [
@@ -18,7 +17,6 @@ const routes = [
     { path: '/skills', component: Skills},
     { path: '/projects', component: Projects},
     { path: '/hobbies', component: Hobbies},
-    { path: '/contact', component: Contact},
     { path: '/:pathMatch(.*)*', component: NotFound}
 ]
 
