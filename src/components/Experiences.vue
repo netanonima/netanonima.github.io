@@ -19,6 +19,102 @@
               <p class="text">
                 Formation (CFC d'informaticien en développement d'applications).
               </p>
+              <p>
+                <div class="container mx-auto lg:pt-3">
+                  <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/apple.png" alt="apple">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/js.png" alt="js">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/php.png" alt="php">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/dottemplate.png" alt="dottemplate">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/perfectscrollbar.png" alt="perfectscrollbar">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/html.png" alt="html">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/css.png" alt="css">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mysql.png" alt="mysql">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/nodejs.png" alt="nodejs">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/vuejs.png" alt="vuejs">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/postman.png" alt="postman">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/phpmyadmin.png" alt="phpmyadmin">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/dbeaver.png" alt="dbeaver">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/oracle.png" alt="oracle">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/postgresql.png" alt="postgresql">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/git.png" alt="git">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/gitlab.png" alt="gitlab">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mediawiki.png" alt="mediawiki">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
             </li>
             <li class="mb-10 ml-6">
               <span class="circle"/>
@@ -30,6 +126,62 @@
               </time>
               <p class="text">
                 Première année de formation (CFC d'informaticien en développement d'applications).
+              </p>
+              <p>
+                <div class="container mx-auto lg:pt-3">
+                  <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/windows.png" alt="windows">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/js.png" alt="js">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/html.png" alt="html">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/css.png" alt="css">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mysql.png" alt="mysql">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/phpmyadmin.png" alt="phpmyadmin">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/java.png" alt="java">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/bootstrap.png" alt="bootstrap">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/git.png" alt="git">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/github.png" alt="github">
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </p>
             </li>
             <li class="mb-10 ml-6">
@@ -43,6 +195,57 @@
               <p class="text">
                 Stage en tant que développeur d'applications web dans le cadre de ma préformation au sein de l'ORIF d'Aigle.
               </p>
+              <p>
+                <div class="container mx-auto lg:pt-3">
+                  <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/windows.png" alt="windows">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/php.png" alt="php">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/html.png" alt="html">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/css.png" alt="css">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/symfony.png" alt="symfony">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/doctrine.png" alt="doctrine">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/phpmyadmin.png" alt="phpmyadmin">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/git.png" alt="git">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/github.png" alt="github">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
             </li>
             <li class="mb-10 ml-6">
               <span class="circle"/>
@@ -54,6 +257,52 @@
               </time>
               <p class="text">
                 Stage en tant que développeur d'applications web dans le cadre de ma préformation au sein de l'ORIF de La Chaux-de-Fonds.
+              </p>
+              <p>
+                <div class="container mx-auto lg:pt-3">
+                  <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/windows.png" alt="windows">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/linuxmint.png" alt="linuxmint">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/php.png" alt="php">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/bootstrap.png" alt="bootstrap">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/html.png" alt="html">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/css.png" alt="css">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mariadb.png" alt="mariadb">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/phpmyadmin.png" alt="phpmyadmin">
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </p>
             </li>
             <li class="mb-10 ml-6">
@@ -111,5 +360,8 @@
 }
 .text {
   @apply text-base font-normal text-gray-600 dark:text-gray-400;
+}
+.icons{
+  width: 30px;
 }
 </style>

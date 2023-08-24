@@ -19,6 +19,177 @@
               <p class="text">
                 Cours professionnels en vue de l'obtention du CFC d'informaticien en développement d'applications.
               </p>
+              <p>
+                <div class="container mx-auto lg:pt-3">
+                  <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/java.png" alt="java">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/html.png" alt="html">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/css.png" alt="css">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/js.png" alt="js">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/php.png" alt="php">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/csharp.png" alt="csharp">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/python.png" alt="python">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/bash.png" alt="bash">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/windows.png" alt="windows">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/linux.png" alt="linux">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/flask.png" alt="flask">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/dotnet.png" alt="dotnet">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/vuejs.png" alt="vuejs">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/angular.png" alt="angular">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/laravel.png" alt="laravel">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/react.png" alt="react">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/bootstrap.png" alt="bootstrap">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/tailwind.png" alt="tailwind">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/socketio.png" alt="socketio">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mysql.png" alt="mysql">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mariadb.png" alt="mariadb">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/git.png" alt="git">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/github.png" alt="github">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/gitlab.png" alt="gitlab">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/agile.png" alt="agile">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/scrum.png" alt="scrum">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/docker.png" alt="docker">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/access.png" alt="access">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/word.png" alt="word">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/excel.png" alt="excel">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/powerpoint.png" alt="powerpoint">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/postman.png" alt="postman">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/trello.png" alt="trello">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
             </li>
             <li class="mb-10 ml-6">
               <span class="circle"/>
@@ -112,5 +283,8 @@
 }
 .text {
   @apply text-base font-normal text-gray-600 dark:text-gray-400;
+}
+.icons{
+  width: 30px;
 }
 </style>
