@@ -14,7 +14,7 @@ import moment from 'moment'
         <h1 class="text-4xl font-medium text-gray-700">
           Flavio Bertolini,
           <span class="font-light text-gray-500">
-            {{ moment().diff(moment('1983-09-01'), 'years')}}
+            {{ moment().diff(moment('1983-09-01'), 'years')}} ans
           </span>
         </h1>
         <p class="font-light text-gray-600 mt-3">

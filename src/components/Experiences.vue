@@ -11,7 +11,7 @@
             <li class="mb-10 ml-6">
               <span class="circle"/>
               <h3 class="title">
-                GoLink SA - Paudex (VD)
+                Golink SA - Paudex (VD)
               </h3>
               <time class="release-date">
                 2021-2024
