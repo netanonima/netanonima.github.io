@@ -276,7 +276,7 @@
   @apply absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900 md:block;
 }
 .title {
-  @apply mb-2 text-2xl font-medium text-gray-700 dark:text-white;
+  @apply mb-2 text-2xl font-medium text-gray-700;
 }
 .release-date {
   @apply block mb-2 text-lg font-light text-gray-500 dark:text-gray-500;

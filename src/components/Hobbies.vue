@@ -6,7 +6,7 @@
   <div class="flex flex-col items-center mt-10">
     <div class="flex flex-wrap w-full px-4 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
       <div class="category w-full md:w-1/2 px-2">
-        <h3 class="title">
+        <h3 class="title text-black">
           Centres d'intérêt
         </h3>
         <div>
@@ -118,7 +118,7 @@
 
 <style scoped>
 .title {
-  @apply mb-3 text-2xl font-medium text-gray-700 dark:text-white;
+  @apply mb-3 text-2xl font-medium text-gray-700;
 }
 .category{
   @apply mb-7;

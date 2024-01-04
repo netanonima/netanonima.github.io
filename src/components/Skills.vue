@@ -248,7 +248,7 @@
 
 <style scoped>
 .title {
-  @apply mb-3 text-2xl font-medium text-gray-700 dark:text-white;
+  @apply mb-3 text-2xl font-medium text-gray-700;
 }
 .category{
   @apply mb-7;

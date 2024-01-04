@@ -16,16 +16,16 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/noobill.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/noobill.png" alt="noobill" />
+          <img @click="showImageInModal('./../src/assets/projects/share-your-quizz.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/share-your-quizz.png" alt="share-your-quizz" />
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noobill</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Share your quizz</h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
-              Application de gestion de facturation, de devis et de clients destiné aux PME actives dans les prestations de services.
+              Application multilingue open-source de quiz en ligne permettant de créer et de partager des quiz avec ses amis/étudiants/collègues aussi bien en ligne qu'en présentiel.
             </p>
-            <a href="https://noobill.ch/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers noobill
+            <a href="https://share-your-quizz.ch/fr/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Vers Share-your-quizz
               <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
@@ -44,7 +44,7 @@ function showImageInModal(imageSrc) {
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
               Application web pour comparer les temps de seeds hebdomadaires de la communauté Randoblazer (randomizer du jeu soul blazer sur snes).
             </p>
-            <a href="https://randoblazer.com/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="https://randoblazer.com/weekly/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers Randoblazer
               <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -86,6 +86,27 @@ function showImageInModal(imageSrc) {
             </p>
             <a href="https://github.com/netanonima/timux/releases/tag/v1.0" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers Timux
+              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category w-full md:w-1/2 px-2 mb-10">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <img @click="showImageInModal('./../src/assets/projects/noobill.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/noobill.png" alt="noobill" />
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noobill</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+              Application de gestion de facturation, de devis et de clients destiné aux PME actives dans les prestations de services.<br><br>
+              Plus maintenu depuis 2020.
+            </p>
+            <a href="https://noobill.ch/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Vers noobill
               <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
