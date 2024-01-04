@@ -136,6 +136,6 @@ document.addEventListener('keydown', function(e) {
   @apply px-40 pt-5
 }
 footer{
-  @apply mt-10
+  @apply mt-10 pb-0
 }
 </style>
