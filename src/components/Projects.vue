@@ -21,8 +21,22 @@ function showImageInModal(imageSrc) {
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Share your quizz</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
               Application multilingue open-source de quiz en ligne permettant de créer et de partager des quiz avec ses amis/étudiants/collègues aussi bien en ligne qu'en présentiel.
+            </p>
+            <p>
+              <h2 class="font-bold">Technologies utilisées</h2>
+              <div class="ml-8 mb-5">
+                <ul class="list-disc">
+                  <li>Angular</li>
+                  <li>Nestjs</li>
+                  <li>socketIO</li>
+                  <li>typeORM</li>
+                  <li>mysql</li>
+                  <li>Anuglar Internationalization (i18n)</li>
+                  <li>material UI</li>
+                </ul>
+              </div>
             </p>
             <a href="https://share-your-quizz.ch/fr/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers Share-your-quizz
@@ -47,8 +61,22 @@ function showImageInModal(imageSrc) {
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Swiss bill maker</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
               Application simple pour générer des swiss factures selon les normes de six-group.
+            </p>
+            <p>
+              <h2 class="font-bold">Technologies utilisées</h2>
+              <div class="ml-8 mb-5">
+                <ul class="list-disc">
+                  <li>Angular</li>
+                  <li>nodeJS</li>
+                  <li>ExpressJS</li>
+                  <li>puppeteer</li>
+                  <li>qrcode-svg</li>
+                  <li>i18n-iso-countries</li>
+                  <li>material UI</li>
+                </ul>
+              </div>
             </p>
             <a href="https://noobill.ch/SwissBillMaker/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers Swiss bill maker
@@ -73,8 +101,19 @@ function showImageInModal(imageSrc) {
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Randoblazer</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
               Application web pour comparer les temps de seeds hebdomadaires de la communauté Randoblazer (randomizer du jeu soul blazer sur snes).
+            </p>
+            <p>
+              <h2 class="font-bold">Technologies utilisées</h2>
+              <div class="ml-8 mb-5">
+                <ul class="list-disc">
+                  <li>PHP</li>
+                  <li>SQL</li>
+                  <li>mysql</li>
+                  <li>bootstrap</li>
+                </ul>
+              </div>
             </p>
             <a href="https://randoblazer.com/weekly/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers Randoblazer
@@ -93,8 +132,16 @@ function showImageInModal(imageSrc) {
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blazer tracker</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
               Application web pour suivre l'avancement dans une partie de randoblazer.
+            </p>
+            <p>
+              <h2 class="font-bold">Technologies utilisées</h2>
+              <div class="ml-8 mb-5">
+                <ul class="list-disc">
+                  <li>PHP</li>
+                </ul>
+              </div>
             </p>
             <a href="https://noobill.ch/blazer_tracker/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers Blazer tracker
@@ -113,8 +160,17 @@ function showImageInModal(imageSrc) {
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Timux</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
               Chronomètre (application de bureau) simple utile au speedrun afin de remplacer liveSplit pour les speedrunners sur linux mais également disponible pour les autres systèmes d'exploitation.
+            </p>
+            <p>
+              <h2 class="font-bold">Technologies utilisées</h2>
+              <div class="ml-8 mb-5">
+                <ul class="list-disc">
+                  <li>VueJS</li>
+                  <li>ElectronJS</li>
+                </ul>
+              </div>
             </p>
             <a href="https://github.com/netanonima/timux/releases/tag/v1.0" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers le repo
@@ -133,9 +189,20 @@ function showImageInModal(imageSrc) {
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noobill</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
               Application de gestion de facturation, de devis et de clients destiné aux PME actives dans les prestations de services.<br><br>
               Plus maintenu depuis 2020.
+            </p>
+            <p>
+              <h2 class="font-bold">Technologies utilisées</h2>
+              <div class="ml-8 mb-5">
+                <ul class="list-disc">
+                  <li>PHP</li>
+                  <li>SQL</li>
+                  <li>mPDF</li>
+                  <li>mysql</li>
+                </ul>
+              </div>
             </p>
             <a href="https://noobill.ch/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               Vers noobill
