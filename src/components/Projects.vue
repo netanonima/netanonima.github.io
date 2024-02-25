@@ -16,7 +16,7 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/share-your-quizz.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/share-your-quizz.png" alt="share-your-quizz" />
+          <img class="rounded-t-lg" src="./../assets/projects/share-your-quizz.png" alt="share-your-quizz" />
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Share your quizz</h5>
@@ -42,7 +42,7 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/swiss-bill-maker.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/swiss-bill-maker.png" alt="swiss bill maker" />
+          <img class="rounded-t-lg" src="./../assets/projects/swiss-bill-maker.png" alt="swiss bill maker" />
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Swiss bill maker</h5>
@@ -68,7 +68,7 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/randoblazer.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/randoblazer.png" alt="randoblazer" />
+          <img class="rounded-t-lg" src="./../assets/projects/randoblazer.png" alt="randoblazer" />
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Randoblazer</h5>
@@ -88,7 +88,7 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/blazertracker.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/blazertracker.png" alt="blazertracker" />
+          <img class="rounded-t-lg" src="./../assets/projects/blazertracker.png" alt="blazertracker" />
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blazer tracker</h5>
@@ -108,7 +108,7 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/timux.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/timux.png" alt="timux" />
+          <img class="rounded-t-lg" src="./../assets/projects/timux.png" alt="timux" />
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Timux</h5>
@@ -128,7 +128,7 @@ function showImageInModal(imageSrc) {
 
       <div class="category w-full md:w-1/2 px-2 mb-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img @click="showImageInModal('./../src/assets/projects/noobill.png')" class="rounded-t-lg cursor-pointer" src="./../assets/projects/noobill.png" alt="noobill" />
+          <img class="rounded-t-lg" src="./../assets/projects/noobill.png" alt="noobill" />
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noobill</h5>
@@ -149,16 +149,6 @@ function showImageInModal(imageSrc) {
     </div>
   </div>
 
-  <div v-if="showModal" class="fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-    <div class="flex items-center justify-center min-h-screen">
-      <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" @click="showModal = false"></div>
-      <div class="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all">
-        <div class="flex items-center justify-center">
-          <img :src="modalImage" alt="Project Image">
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <style scoped>
