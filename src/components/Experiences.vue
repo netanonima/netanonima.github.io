@@ -11,6 +11,117 @@
             <li class="mb-10 ml-6">
               <span class="circle"/>
               <h3 class="title">
+                Midas rénovation SA / eco-huile Sàrl - Etoy (VD)
+              </h3>
+              <time class="release-date">
+                2024-2025
+              </time>
+              <p class="text">
+                Responsable informatique
+              </p>
+              <ul class="list-disc list-inside text">
+                <li>gestion du parc informatique (inventaire, dépannages, acquisitions, mise à niveau, entretien)</li>
+                <li>entretien (corrections de bugs, migration) et ajout de fonctionnalités sur application web existante (php, vue2)</li>
+                <li>migration web et e-mail vers hébergeur unique</li>
+                <li>mise en place d'un système de backups (données apps, documents internes, emails)</li>
+                <li>création d'une nouvelle application web de gestion (nest, vue3)</li>
+              </ul>
+              <p>
+                <div class="container mx-auto lg:pt-3">
+                  <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/linux.png" alt="linux">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/windows.png" alt="windows">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/apple.png" alt="apple">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/ts.png" alt="ts">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/js.png" alt="js">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/php.png" alt="php">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/html.png" alt="html">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/css.png" alt="css">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mysql.png" alt="mysql">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/nodejs.png" alt="nodejs">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/vuejs.png" alt="vuejs">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/postman.png" alt="postman">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/phpmyadmin.png" alt="phpmyadmin">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/dbeaver.png" alt="dbeaver">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/git.png" alt="git">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/mediawiki.png" alt="mediawiki">
+                      </div>
+                    </div>
+                    <div class="flex w-1/10 flex-wrap">
+                      <div class="w-full p-1 md:p-2">
+                        <img class="icons" src="./../assets/icons/synology.png" alt="synology">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+            </li>
+
+            <li class="mb-10 ml-6">
+              <span class="circle"/>
+              <h3 class="title">
                 Golink SA - Paudex (VD)
               </h3>
               <time class="release-date">
