@@ -18,7 +18,7 @@ import moment from 'moment'
           </span>
         </h1>
         <p class="font-light text-gray-600 mt-3">
-          Lausanne, Suisse
+          Paudex (VD), Suisse
         </p>
         <p class="mt-4 text-gray-700">
           Apprenti en 4ème année de développeur d'applications souhaitant s'orienter vers le full stack.
