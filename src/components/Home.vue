@@ -7,7 +7,7 @@ import moment from 'moment'
     <div class="w-full px-4 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
 
       <div class="mb-4">
-        <img class="w-48 h-48 rounded-full drop-shadow-2xl mx-auto" src="./../assets/home/photoCV.png" alt="Rounded avatar">
+        <img class="w-48 h-auto rounded-full drop-shadow-2xl mx-auto" src="./../assets/home/photoCV.png" alt="Rounded avatar">
       </div>
 
       <div class="text-center border-b pb-12">

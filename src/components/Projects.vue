@@ -1,223 +1,159 @@
 <script setup>
-import { ref } from 'vue';
+import { ref } from 'vue'
 
-let showModal = ref(false);
-let modalImage = ref('');
+const showModal = ref(false)
+const modalImage = ref('')
 
 function showImageInModal(imageSrc) {
-  modalImage.value = imageSrc;
-  showModal.value = true;
+  modalImage.value = imageSrc
+  showModal.value = true
 }
+
+const projects = [
+  {
+    title: 'Share your quizz',
+    image: new URL('./../assets/projects/share-your-quizz.png', import.meta.url).href,
+    description: `Application multilingue open-source de quiz en ligne permettant de créer et de partager des quiz avec ses amis/étudiants/collègues aussi bien en ligne qu'en présentiel.`,
+    technos: ['Angular', 'Nestjs', 'socketIO', 'typeORM', 'mysql', 'Angular Internationalization (i18n)', 'Material UI'],
+    link: 'https://share-your-quizz.ch/fr/',
+    repo: 'https://github.com/netanonima/share_your_quizz'
+  },
+  {
+    title: 'Swiss bill maker',
+    image: new URL('./../assets/projects/swiss-bill-maker.png', import.meta.url).href,
+    description: `Application simple pour générer des swiss factures selon les normes de six-group.`,
+    technos: ['Angular', 'nodeJS', 'ExpressJS', 'puppeteer', 'qrcode-svg', 'i18n-iso-countries', 'Material UI'],
+    link: 'https://noobill.ch/SwissBillMaker/',
+    repo: 'https://github.com/netanonima/swiss-bill-maker/'
+  },
+  {
+    title: 'Randoblazer',
+    image: new URL('./../assets/projects/randoblazer.png', import.meta.url).href,
+    description: `Application web pour comparer les temps de seeds hebdomadaires de la communauté Randoblazer (randomizer du jeu Soul Blazer sur SNES).`,
+    technos: ['PHP', 'SQL', 'mysql', 'bootstrap'],
+    link: 'https://randoblazer.com/weekly/'
+  },
+  {
+    title: 'Blazer tracker',
+    image: new URL('./../assets/projects/blazertracker.png', import.meta.url).href,
+    description: `Application web pour suivre l'avancement dans une partie de Randoblazer.`,
+    technos: ['PHP'],
+    link: 'https://noobill.ch/blazer_tracker/'
+  },
+  {
+    title: 'Timux',
+    image: new URL('./../assets/projects/timux.png', import.meta.url).href,
+    description: `Chronomètre (application de bureau) simple utile au speedrun afin de remplacer LiveSplit pour les speedrunners sur Linux mais également disponible pour les autres systèmes d'exploitation.`,
+    technos: ['VueJS', 'ElectronJS'],
+    repo: 'https://github.com/netanonima/timux/releases/tag/v1.0'
+  },
+  {
+    title: 'Noobill',
+    image: new URL('./../assets/projects/noobill.png', import.meta.url).href,
+    description: `Application de gestion de facturation, de devis et de clients destinée aux PME actives dans les prestations de services.<br><br><strong>Plus maintenu depuis 2020.</strong>`,
+    technos: ['PHP', 'SQL', 'mPDF', 'mysql'],
+    link: 'https://noobill.ch/'
+  }
+]
 </script>
 
 <template>
-  <div class="flex flex-col items-center mt-10">
-    <div class="flex flex-wrap w-full px-4 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
+  <!-- Section avec des marges adaptées et un conteneur centré -->
+  <section class="py-10">
+    <div class="container mx-auto px-4">
 
-      <div class="category w-full md:w-1/2 px-2 mb-10">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src="./../assets/projects/share-your-quizz.png" alt="share-your-quizz" />
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Share your quizz</h5>
-            </a>
-            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Application multilingue open-source de quiz en ligne permettant de créer et de partager des quiz avec ses amis/étudiants/collègues aussi bien en ligne qu'en présentiel.
-            </p>
-            <p>
-              <h2 class="font-bold">Technologies utilisées</h2>
-              <div class="ml-8 mb-5">
-                <ul class="list-disc">
-                  <li>Angular</li>
-                  <li>Nestjs</li>
-                  <li>socketIO</li>
-                  <li>typeORM</li>
-                  <li>mysql</li>
-                  <li>Anuglar Internationalization (i18n)</li>
-                  <li>material UI</li>
-                </ul>
-              </div>
-            </p>
-            <a href="https://share-your-quizz.ch/fr/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers Share-your-quizz
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-            <a href="https://github.com/netanonima/share_your_quizz" target="_blank" class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers le repo
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+      <!-- Grille responsive : 1 colonne (xs) / 2 (sm) / 3 (md) / 4 (xl+) -->
+      <div
+          class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
+      >
+        <!-- Carte projet -->
+        <article
+            v-for="(project, index) in projects"
+            :key="index"
+            class="flex flex-col bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition"
+        >
+          <!-- Image avec ratio et hauteurs adaptées aux breakpoints -->
+          <img
+              :src="project.image"
+              :alt="project.title"
+              class="w-full object-cover rounded-t-lg h-48 sm:h-56 md:h-40 lg:h-44 xl:h-52"
+              loading="lazy"
+          />
 
-      <div class="category w-full md:w-1/2 px-2 mb-10">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src="./../assets/projects/swiss-bill-maker.png" alt="swiss bill maker" />
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Swiss bill maker</h5>
-            </a>
-            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Application simple pour générer des swiss factures selon les normes de six-group.
-            </p>
-            <p>
-              <h2 class="font-bold">Technologies utilisées</h2>
-              <div class="ml-8 mb-5">
-                <ul class="list-disc">
-                  <li>Angular</li>
-                  <li>nodeJS</li>
-                  <li>ExpressJS</li>
-                  <li>puppeteer</li>
-                  <li>qrcode-svg</li>
-                  <li>i18n-iso-countries</li>
-                  <li>material UI</li>
-                </ul>
-              </div>
-            </p>
-            <a href="https://noobill.ch/SwissBillMaker/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers Swiss bill maker
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-            <a href="https://github.com/netanonima/swiss-bill-maker/" target="_blank" class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers le repo
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+          <!-- Contenu -->
+          <div class="flex flex-col flex-1 p-5">
+            <h5 class="mb-2 font-bold text-lg sm:text-xl">
+              {{ project.title }}
+            </h5>
 
-      <div class="category w-full md:w-1/2 px-2 mb-10">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src="./../assets/projects/randoblazer.png" alt="randoblazer" />
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Randoblazer</h5>
-            </a>
-            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Application web pour comparer les temps de seeds hebdomadaires de la communauté Randoblazer (randomizer du jeu soul blazer sur snes).
-            </p>
-            <p>
-              <h2 class="font-bold">Technologies utilisées</h2>
-              <div class="ml-8 mb-5">
-                <ul class="list-disc">
-                  <li>PHP</li>
-                  <li>SQL</li>
-                  <li>mysql</li>
-                  <li>bootstrap</li>
-                </ul>
-              </div>
-            </p>
-            <a href="https://randoblazer.com/weekly/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers Randoblazer
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+            <p
+                class="text-gray-700 text-sm sm:text-base mb-4 flex-1"
+                v-html="project.description"
+            ></p>
 
-      <div class="category w-full md:w-1/2 px-2 mb-10">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src="./../assets/projects/blazertracker.png" alt="blazertracker" />
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blazer tracker</h5>
-            </a>
-            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Application web pour suivre l'avancement dans une partie de randoblazer.
-            </p>
-            <p>
-              <h2 class="font-bold">Technologies utilisées</h2>
-              <div class="ml-8 mb-5">
-                <ul class="list-disc">
-                  <li>PHP</li>
-                </ul>
-              </div>
-            </p>
-            <a href="https://noobill.ch/blazer_tracker/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers Blazer tracker
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+            <h6 class="font-semibold mb-2 text-sm sm:text-base">
+              Technologies utilisées
+            </h6>
 
-      <div class="category w-full md:w-1/2 px-2 mb-10">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src="./../assets/projects/timux.png" alt="timux" />
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Timux</h5>
-            </a>
-            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Chronomètre (application de bureau) simple utile au speedrun afin de remplacer liveSplit pour les speedrunners sur linux mais également disponible pour les autres systèmes d'exploitation.
-            </p>
-            <p>
-              <h2 class="font-bold">Technologies utilisées</h2>
-              <div class="ml-8 mb-5">
-                <ul class="list-disc">
-                  <li>VueJS</li>
-                  <li>ElectronJS</li>
-                </ul>
-              </div>
-            </p>
-            <a href="https://github.com/netanonima/timux/releases/tag/v1.0" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers le repo
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+            <ul
+                class="list-disc list-inside text-gray-600 text-sm sm:text-base mb-4"
+            >
+              <li v-for="tech in project.technos" :key="tech">{{ tech }}</li>
+            </ul>
 
-      <div class="category w-full md:w-1/2 px-2 mb-10">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src="./../assets/projects/noobill.png" alt="noobill" />
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noobill</h5>
-            </a>
-            <p class="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Application de gestion de facturation, de devis et de clients destiné aux PME actives dans les prestations de services.<br><br>
-              Plus maintenu depuis 2020.
-            </p>
-            <p>
-              <h2 class="font-bold">Technologies utilisées</h2>
-              <div class="ml-8 mb-5">
-                <ul class="list-disc">
-                  <li>PHP</li>
-                  <li>SQL</li>
-                  <li>mPDF</li>
-                  <li>mysql</li>
-                </ul>
-              </div>
-            </p>
-            <a href="https://noobill.ch/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Vers noobill
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
+            <!-- Boutons -->
+            <div class="mt-auto flex flex-wrap gap-2">
+              <a
+                  v-if="project.link"
+                  :href="project.link"
+                  target="_blank"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Vers le projet
+                <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                >
+                  <path
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a
+                  v-if="project.repo"
+                  :href="project.repo"
+                  target="_blank"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300"
+              >
+                Vers le repo
+                <svg
+                    class="w-3.5 h-3.5 ml-2"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                >
+                  <path
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
+        </article>
+        <!-- /Carte projet -->
       </div>
     </div>
-  </div>
-
+  </section>
 </template>
 
 <style scoped>
-
+/* Tout est géré par Tailwind, mais vous pouvez ajouter des overrides ici si nécessaire */
 </style>
